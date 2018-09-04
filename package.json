@@ -1,0 +1,19 @@
+{
+  "name": "typechain",
+  "version": "0.0.1",
+  "description": "Blockchain with typescript",
+  "main": "index.js",
+  "repository": "https://github.com/shirong88/typechain.git",
+  "author": "shirong <sykim2@parkingcloud.co.kr>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "typescript": "^3.0.3"
+  },
+  "devDependencies": {
+    "tsc-watch": "^1.0.27"
+  }
+}
